@@ -1,8 +1,8 @@
 # Program to demonstrate operator precedence in Python
 
-a = 5
-b = 3
-c = 2
+a = 6
+b = 7
+c = 8
 
 # Arithmetic operations
 result = a + b * c  # Multiplication has higher precedence than addition
@@ -13,7 +13,7 @@ result = (a + b) * c  # Addition has higher precedence due to parentheses
 print("Result of (a + b) * c =", result)  # Output: 16
 
 # Comparison operations
-result = a > b + c  # Addition has higher precedence than comparison
+result = a >b + c  # Addition has higher precedence than comparison
 print("Result of a > b + c =", result)  # Output: False
 
 # Logical operations
